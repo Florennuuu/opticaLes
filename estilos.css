@@ -1,0 +1,64 @@
+*{margin:0;padding: 0; }
+
+body{
+    background: rgb(250, 153, 43); 
+}
+.cabecera{
+    display: block;
+    width: 20%;
+} 
+.navPrincipal{/*nav*/
+    position: fixed;
+    width: 100%;
+    background: rgba(241, 181, 101, 0.685);
+    font-family: 'Kranky';
+}
+/*Selectores*/
+.navPrincipal ul{
+	list-style-type: none;
+    text-align:center; 
+}
+
+.navPrincipal ul li {
+    display: inline-block;
+}
+
+.navPrincipal ul li a{
+    color:black;
+    text-decoration:none;
+    
+    display: block;
+    padding: 20px; 
+}
+
+/*:hover*/
+.navPrincipal ul li a:hover{
+    color: white;
+    text-decoration: underline;
+	background: rgb(250, 153, 43);
+}
+
+section{
+    height: 100vw;
+    text-align: center;
+}
+
+#secc1 { 
+    
+}
+
+#secc2 { 
+    
+}
+
+#secc3 { 
+    
+}
+
+#secc4 { 
+    
+}
+
+#secc5 { 
+    
+}
