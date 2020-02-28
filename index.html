@@ -6,6 +6,10 @@
  <meta charset="utf-8">
  <link href="estilos.css" rel="stylesheet" type="text/css">
  <title>Optica LES</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" crossorigin="anonymous">
+ <!--inconos-->
+ <link rel="shortcut icon" href="favicon.ico">
  <!--Fuente de google-->
  <link href="https://fonts.googleapis.com/css?family=Kranky|Skranji&display=swap" rel="stylesheet">
 </head>
@@ -14,8 +18,8 @@
 
 
 <nav class="navPrincipal"> 
-    <div class="cabecera">	 
-        <img src="img/LOGO.png" alt="ir a la home">  			
+    <div >   
+        <img class="LOGO" src="img/LOGO.png" alt="ir a la home">       
     </div>
 <ul> 
  <li>
@@ -41,51 +45,141 @@
     <div class="titulos">
         <h2>Quienes somos</h2>
     </div> 
-    <div>
-       <p>Hola! Somos una pyme ubicada en Parque Patricios.</p> 
-       <p>Nos comprometemos a asesorarte en la eleccion de tus nuevos anteojos favoritos</p>
+    <div class="presentacion">
+       <p>Hola! Somos una pyme ubicada en Parque Patricios.
+        <br>
+       Nos comprometemos a asesorarte en la eleccion de tus nuevos anteojos favoritos
+       </p>
     </div>       
  </article> 
 </section>
 
-<section id="secc2">
-    <div>    
-      <h2>Productos</h2>
-      <article>
-       <p>Anteojos y marcos diarios</p>
-       <img class="diarios" src="img/marco.jpeg" alt="">
-      </article>
-     <article>
-       <p>Anteojos por temporada</p>
-       <img class="temporada" src="img/Anteojos de sol.jpg" alt="">
-    </article>
-    <article>
-       <p>Estuches</p>
-       <img class="estuches" src="img/sol.jpg" alt="">
-    </div>
-    </article>
+<section class="container-fluid" id="secc2">
+  <h2>Productos</h2>
+  <div class="container">
+    <div class="row"> 
+       <div class="col-lg col-md-12 col-sm-12"  data-aos="fade-up" data-aos-duration="1000">
+         <div class="text-center mb-4 mt-sm-3">
+            <img class="fas fa-blender img" src="img/marcos.jpg" alt="">
+          </div>
+          <p class="text-justify txt-ofrecemos">Anteojos diarios</p>
+         </div>
+
+        <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1000">
+          <div class="text-center mb-4 mt-sm-3">
+            <img class="fas fa-blender img" src="img/Anteojos de sol.jpg" alt="">
+          </div>
+          <p class="text-justify txt-ofrecemos">Anteojos por temporada</p>  
+        </div>
+       
+        <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1000">
+          <div class="text-center mb-4 mt-sm-3">
+            <img class="fas fa-blender img" src="img/sol.jpg" alt="">
+          </div>
+          <p class="text-justify txt-ofrecemos">Estuches</p>
+          </div>
+        </div>
+       </div> 
 </section>
 
-<section id="secc3">
-    <div>
+<section class="container-fluid" id="secc3">
     <h2>Promociones</h2>
+  <div class="container">
+    <div class="row"> 
+       <div class="col-lg col-md-12 col-sm-12"  data-aos="fade-up" data-aos-duration="1000">
+         <div class="text-center mb-4 mt-sm-3">
+            <img class="fas fa-blender img" src="img/seccion3.JPEG" alt="">
+          </div>
+         </div>
+
+        <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1000">
+          <div class="text-center mb-4 mt-sm-3">
+            <img class="fas fa-blender img" src="img/seccion333.JPG" alt="">
+          </div> 
+        </div>
+       
+        <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1000">
+          <div class="text-center mb-4 mt-sm-3">
+            <img class="fas fa-blender img" src="img/seccion33.JPEG" alt="">
+          </div>
+        </div>
     </div>
+  </div> 
 </section>
 
-<section id="secc4">
-    <div>
-    <h2>Consejos</h2>
+<section id="secc4" class="Box">
+    <div id="Consejos">
+     <h2>Consejos</h2>
+    </div>
+    <div id="imgConsejos" class="imgConsejos">
+      <div class="row">
+       <article class="col-lg-3 col-md-6 col-sm-12">
+        <img src="img/seccion53.JPEG" alt="">
+       </article>
+       <article class="col-lg-3 col-md-6 col-sm-12">
+        <img src="img/seccion5.JPEG" alt="">
+       </article>
+       <article class="col-lg-3 col-md-6 col-sm-12">
+        <img src="img/seccio52.JPEG" alt="">
+       </article>
+      </div>
     </div>
 </section>
 
 <section id="secc5">
-    <div>
-    <h2>Contacto</h2>
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="headerText textCenter" data-aos="fade-right" data-aos-easing="linear"data-aos-duration="1500">
+          <h2>Contacto</h2>
+          <p>Ante cualquier duda o consulta podes deja run comentario o hablarnos al contacto directo</p>
+        </div>
+      </div>
     </div>
+    <div class="row clearfix" data-aos="fade-up" data-aos-easing="linear"data-aos-duration="1500">
+      <div class="offset-sm-2 col-sm-8">
+        <form action="procesar_contacto.php" method="POST">
+          <div class="form-group">
+            <label for="campoNombre">Nombre</label>
+            <input type="text" name="nombre" class="form-control">
+          </div>
+           <div class="form-group">
+            <label for="campoEmail">Email</label>
+            <input type="text" name="email" class="form-control">
+          </div>
+           <div class="form-group">
+            <label for="campoCelular">Celular</label>
+            <input type="text" name="celular" class="form-control">
+          </div>
+           <div class="form-group">
+            <label for="campoMensaje">Mensaje</label>
+            <textarea class="form-control textarea" name="mensaje"  id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="form-group text-center">
+            <input type="submit" value="Enviar" class="btn btnD1">
+          </div>
+          <div id="respuesta"></div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="col-sm-12 col-md-6 datos">
+  <h4>Contacto Directo</h4><br>
+  <p> opticalespp@gmail.com</p>
+  <p> 11 5400 4908</p><br>
+  <p>Buenos Aires, Argentina</p><br>
+  <p><strong>Seguinos en instagram</strong></p><br>
+  <p>@optica_les</p>
+  </div>
 </section>
 
-
-
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html> 
