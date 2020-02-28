@@ -1,80 +1,153 @@
-*{margin:0;padding: 0; }
+*{margin:0;padding: 0;scroll-behavior: smooth;}
 
 body{
     background: rgb(250, 153, 43);  
-}
-
-.logo {
-    width: 60px;
-} 
+    }
 
 .navPrincipal{/*nav*/
     display: flex;
     width: 100%;
     background: rgba(241, 181, 101, 0.685);
     font-family: 'Kranky';
-    font-size: large;
+    font-size: x-large;
     align-content: center;
     justify-content: space-between;
-}
+    }
+
+.LOGO {
+    width: 10vh;
+    }
+
 .links {
     align-self: flex-end;
-}
+    }
+
 /*Selectores*/
 .navPrincipal ul{
 	list-style-type: none;
     text-align:center; 
-}
+    }
 
 .navPrincipal ul li {
     display: inline-block;
-}
+    }
 
 .navPrincipal ul li a{
     color:black;
     text-decoration:none;
     display: block;
     padding: 20px; 
-}
+    }
 
 /*:hover*/
 .navPrincipal ul li a:hover{
     color: white;
     text-decoration: underline;
 	background: rgb(250, 153, 43);
-}
+    }
 
 section{
     height: 50vw;
     text-align: center;
-}
-
-#secc1 { 
-    position: relative;
-    margin-top: 60px 50px 60px 50px;
-    font-family: 'Kranky';
-    font-size: x-large;
-    color:black;
+    font-family: 'Skranji';
+    font-size: large;
+    color: black;
+    background: rgb(250, 153, 43); 
+    }
+/*esto es lo unico que esta bien jeje*/
+#secc1 {  
+    background-image: url("img/optica4.jpeg");
+    height: 80vh;
     background-color: #ffdd90;
-    background-image: url("img/optica3.jpeg");
-}
-
-#secc2 { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.7);   
+    align-items: center;
     position: relative;
+    }
+
+    .presentacion{
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+    font-size: black;
+    }
+
+#secc2 #secc3{
+    position: relative;
+    padding: 30px;
+    color: white;
+    width: 
+
 }
 
-.diarios{
-    position: absolute;
-}
+#secc2 
+    .txt-ofrecemos{
+    font-size: 1.1em;
+    }
 
-#secc3 { 
-    
-}
+    .img{
+    width:100px;
+    height: 150px; 
+    font-size: 3em;
+    }
+
+
+#secc3{
+
+    }
 
 #secc4 { 
-    
+
+    }
+
+.contacto{
+        padding: 20px 0;
+    }
+    .contacto .form-control{
+        height: 40px;
+        border: 1px solid #fff;
+    }
+    .btnD1{
+        padding: 10px 40px;
+        margin-top: 10px;
+    }
+    footer{
+        background: #000;
+        padding: 0px 0 20px;
+    }
+    .sci li{
+        list-style: none;
+        margin: 0 10px;
+    }
+    .sci li a{
+        color: #777;
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+    .sec2{
+        height: auto;
+        padding: 60px 0; 
+    }
+    .placeBox{
+        height: 200px;
+        width: 80px;
+    }
+    .contacto{
+        padding: 50px 0;
+    }
+    .sec1 h3{
+        font-size: 0.1rem;
+    }
+    .datos{
+        display: block;''
+        justify-content: center;
+    }
 }
 
-#secc5 { 
-    
+.mapa{
+    width: 80%;
+    margin: 0 auto; 
+    display: block;
 }
